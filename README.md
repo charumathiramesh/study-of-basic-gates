@@ -66,14 +66,47 @@ Y= A⊕B
 
 Program for logic gates and verify its truth table in quartus using Verilog programming
 
- Developed by: RegisterNumber: 
+## Developed by: CHARUMATHI R
+## RegisterNumber: 212222240021
+
+ ```C
+module logic gates ( a,b,y1,y2,y3,y4,y5,y6,y7);
+input a,b;
+output y1,y2,y3,y4,y5,y6,y7;
+and (y1,a,b);
+or (y2,a,b);
+not (y3,a);
+xor (y4,a,b);
+nand (y5,a,b);
+nor (y6,a,b);
+xnor ( y7,a,b);
+endmodule
+
+
+```
  
 **Logic symbol & Truthtable**
 
+
+![313076791-ccbf4d3e-ae79-44a6-ac28-4cd7c7e69720](https://github.com/charumathiramesh/study-of-basic-gates/assets/120204455/4ccaf7c4-1bbf-4dc3-9944-353327e24435)
+
+
+![313076886-60fb42f7-4ef1-4659-81d6-11599963c952](https://github.com/charumathiramesh/study-of-basic-gates/assets/120204455/57d00a3a-f47a-4d93-a6cb-e50d21c7c963)
+
+
+
 **RTL realization Output:** 
+
+
+![313076912-c6c22124-0f27-48f8-a71a-d84e21e4510e](https://github.com/charumathiramesh/study-of-basic-gates/assets/120204455/34d24386-552d-4849-82c6-b730cb6e623d)
 
 **RTL**
 
-**Result:**
+![312525723-f207de9e-70e8-480c-805b-7bba6eba26d7](https://github.com/charumathiramesh/study-of-basic-gates/assets/120204455/63532c0a-9548-43f9-9c0c-437ee302ced1)
 
+
+**Result**
+
+
+The output found successfully.
 
